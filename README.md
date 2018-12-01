@@ -34,6 +34,9 @@ cd Python-3.*.*.tar.xz
 make && make install
 ```
 ## [Pipenv](https://github.com/pypa/pipenv)
+```
+pip install pipenv
+```
 ## [Git](https://github.com/pypa/pipenv)
 ```
 git config --global user.name "username"
