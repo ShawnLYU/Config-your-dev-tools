@@ -19,6 +19,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ### Config color theme to [agnoster](https://github.com/agnoster/agnoster-zsh-theme)
 Navigate to .zshrc and set ZSH_THEME to agnoster
 
+More information about installing the fonts and configuring it properly, you may find detailed instructions in this blog:  _["Jazz Up Your “ZSH” Terminal In Seven Steps — A Visual Guide"](https://medium.freecodecamp.org/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38)_
+
 ## [spf13-vim](https://github.com/spf13/spf13-vim)
 ```
  curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
