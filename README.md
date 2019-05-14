@@ -47,12 +47,9 @@ git config --global user.email "email"
 
 ## [Sublime Text](https://www.sublimetext.com/)
 - [Download](https://www.sublimetext.com/3)
-- [Package Control](https://packagecontrol.io/)
-    1. ctrl+`
-    2. copy and paste:
-    ```
-    import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-    ```
+- [Package Control](https://packagecontrol.io/)    
+There's the instruction for installation in [Package Controll Installation](https://packagecontrol.io/installation)
+
 - Suggested packages
      - [LaTex tools](https://packagecontrol.io/packages/LaTeXTools): Search for ```MarkdownLivePreview```
      - [MarkdownLivePreview](https://packagecontrol.io/packages/MarkdownLivePreview): Search for ```LaTeXTools```
@@ -60,3 +57,6 @@ git config --global user.email "email"
 - Color Schemes
      - [Behave Color Scheme](https://packagecontrol.io/packages/Behave%20Color%20Scheme)
      - [Lyte Theme](https://github.com/lytedev/lyte-theme)
+
+## [LaTex](https://www.latex-project.org/) with Sublime
+To write and compile LaTex files with automatic previews locally on your Mac, you may want to follow steps in _[How to Use LaTeX in Sublime Text on Mac](http://individual.utoronto.ca/dobronyi/latexsublime.html)_. Here's also a Chinese instruction: _[MAC上使用SUBLIME TEXT3编写LATEX](https://www.jianshu.com/p/eed0cb4417fc)_
