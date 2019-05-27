@@ -21,6 +21,4 @@ git config --global user.name "Your Name"
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 ## install Vim
-git clone https://github.com/vim/vim.git
-cd vim/src
-make
+sudo apt-get update && sudo apt-get install vim
